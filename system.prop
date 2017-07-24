@@ -3,5 +3,7 @@
 #
 
 # Radio
-ro.telephony.default_network=22
-telephony.lteOnGsmDevice=1
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+ro.telephony.default_network=10
+telephony.lteOnCdmaDevice=1
